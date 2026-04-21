@@ -1,0 +1,35 @@
+# Streamlit-specific
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Distribution and packaging
+dist/
+build/
+*.egg-info/
+
+# Environment variables and secrets
+.env
+*.env
+
+# IDE and OS-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data and logs (optional, based on your app)
+*.log
+data/
